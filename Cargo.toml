@@ -1,0 +1,20 @@
+[package]
+name = "gitstorian"
+version = "0.0.0"
+authors = ["Stephan Boyer <stephan@stephanboyer.com>"]
+edition = "2021"
+description = "Talk to your Git history."
+license = "MIT"
+documentation = "https://github.com/stepchowfun/gitstorian"
+homepage = "https://github.com/stepchowfun/gitstorian"
+repository = "https://github.com/stepchowfun/gitstorian"
+readme = "README.md"
+
+[lints]
+clippy.all = { level = "deny", priority = -1 }
+clippy.default_numeric_fallback = "deny"
+clippy.pedantic = { level = "deny", priority = -1 }
+rust.warnings = "deny"
+
+[dependencies]
+clap = "2"
